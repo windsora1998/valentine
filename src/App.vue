@@ -8,12 +8,7 @@
   <div class="title-gallery">Our Gallery</div>
   <div class="mb-[48px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:ml-6 md:mr-6 lg:mr-8 lg:ml-8">
     <div v-for="item in lstNumber" :key="item">
-      <CardImage :key="item" :date="item.date" :content="item.content"  :url="`/image/${item.id}.jpeg`" />
-    </div>
-  </div>
-  <div class="mt-[48px] mb-[48px] grid grid-cols-1 sm:grid-cols-2 gap-10 md:ml-6 md:mr-6 lg:mr-8 lg:ml-8">
-    <div v-for="item in lstNumber" :key="item">
-      <CardImage :key="item" :date="item.date" :content="item.content"  :url="`/image/${item.id}.jpeg`" />
+      <CardImage :key="item" :date="item.date" :content="item.content"  :url="`/valentine/image/${item.id}.jpeg`" />
     </div>
   </div>
 </template>
